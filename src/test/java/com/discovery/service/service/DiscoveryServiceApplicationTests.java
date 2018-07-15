@@ -1,4 +1,5 @@
-package com.commandbus.commandbus;
+package com.discovery.service.service;
+
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,7 +14,7 @@ import static org.springframework.test.util.AssertionErrors.assertTrue;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CommandBusApplicationTests {
+public class DiscoveryServiceApplicationTests {
 
 	@Autowired
 	DiscoveryClient discoveryClient;
